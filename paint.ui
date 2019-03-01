@@ -12,8 +12,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>500</height>
+    <width>1267</width>
+    <height>763</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -38,6 +38,20 @@
    <string>Paint</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Color  Pen</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Color Background</string>
+     </property>
+    </widget>
+   </item>
    <item>
     <widget class="QGraphicsView" name="graphicsView">
      <property name="enabled">
